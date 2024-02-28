@@ -1,5 +1,6 @@
 # ChatGPT-KGC-KGR
 This repository presents the work of prompting ChatGPT to solve the tasks of Knowledge Graph Completion (KGC) and Knowledge Graph Reasoning (KGR) on both Static and Temporal KGs.
+It's context is the work previously described in https://github.com/IonutIga/TOD-System, where a Task Oriented Dialogue System is defined, that uses an ontology to map the knowledge of a specific domain, a KG to map the conversation's context, and another one to store any information that is validated by the user. Here, one aspect of the local KG is tested, where the TODS has to build the discussed instance.
 Three types of prompting techniques are used: Direct Prompting (no examples, no reasoning steps, Zero-Shot), In-Context Learning (One-Shot), and Chain of Thought (Zero- and One-shot).
 # Knowledge Graph Completion
 The main subject of each task of KGC is to extract useful information in the form of triples, using the Turtle syntax, from an input phrase. Each phrase is based on a provided ontology which describes three concepts (Employee, Project, and Status) and relationships attached to them. Four types of phrases are formulated:
