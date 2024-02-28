@@ -1,7 +1,15 @@
 # ChatGPT-KGC-KGR
 This repository presents the work of prompting ChatGPT to solve the tasks of Knowledge Graph Completion (KGC) and Knowledge Graph Reasoning (KGR) on both Static and Temporal KGs.
 It's context is the work previously described in https://github.com/IonutIga/TOD-System, where a Task Oriented Dialogue System is defined, that uses an ontology to map the knowledge of a specific domain, a KG to map the conversation's context, and another one to store any information that is validated by the user. Here, one aspect of the local KG is tested, where the TODS has to build the discussed instance.
-Three types of prompting techniques are used: Direct Prompting (no examples, no reasoning steps, Zero-Shot), In-Context Learning (One-Shot), and Chain of Thought (Zero- and One-shot).
+Three types of prompting techniques are used: Direct Prompting (no examples, no reasoning steps, Zero-Shot), In-Context Learning (One-Shot), and Chain of Thought (Zero- and One-shot). Before experimenting, preliminary questions were asked, to assess ChatGPT's knowledge about the topics at hand, such as:
+1. Do you know what a Knowledge Graph is?
+2. Do you know what a Temporal Knowledge Graph is?
+3. Do you know what an ontology is, in the context of Knowledge Graphs?
+4. Do you know what Turtle syntax is, in the context of Knowledge Graphs?
+5. Do you know what a triple is, in the context of Knowledge Graphs?
+6. Do you know how to extract triples from a natural language phrase, given a provided ontology in the Turtle syntax?
+7. Do you know today's date?
+8. Do you know today's time?
 # Knowledge Graph Completion
 The main subject of each task of KGC is to extract useful information in the form of triples, using the Turtle syntax, from an input phrase. Each phrase is based on a provided ontology which describes three concepts (Employee, Project, and Status) and relationships attached to them. Four types of phrases are formulated:
 1. Simple phrase, ex. "Insert an employee with name as John and role as Scientist".
