@@ -4,6 +4,7 @@ It's context is the work previously described in https://github.com/IonutIga/TOD
 Our experiments explore LLMs for KGC and KGR in both Static and Temporal contexts. Through the use of ChatGPT , as the best representative of LLMs, we test its capabilities of solving the mentioned tasks using three different prompting techniques, in two contexts: Zero-Shot (ZS) Direct Prompting (DP) and Chain of Thought (COT), and One-Shot (OS) In-Context Learning (ICL) and Chain of Thought. To highlight a proper use case for LLMs and KG tasks, example phrases are extracted from the training phase of the TOD System. In this way, we not only test whether LLMs can solve KG-specific tasks, but we also explore their integra-tion with Dialogue Systems. In summary, our research makes the following con-tributions:
 •	We evaluate LLMs, more exactly ChatGPT, for the KGC and KGR tasks, in both Static and Temporal KGs, using three different prompting techniques (DP, ICL, COT) in two data contexts (Zero- and One-Shot), revealing insights on how a powerful LLM perform such tasks.
 •	We test whether such models can be integrated in a domain-specific ontology-enhanced TODS, by extracting and using test phrases specific to its training.
-More detailes are available in the provided PDF file.
-Each conversation can be read using each specific link from the folders. 
+
+\nMore detailes are available in the provided PDF file.
+\nEach conversation can be read using each specific link from the folders. 
 
