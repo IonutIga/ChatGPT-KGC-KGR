@@ -5,6 +5,6 @@ Our experiments explore LLMs for KGC and KGR in both Static and Temporal context
 •	We evaluate LLMs, more exactly ChatGPT, for the KGC and KGR tasks, in both Static and Temporal KGs, using three different prompting techniques (DP, ICL, COT) in two data contexts (Zero- and One-Shot), revealing insights on how a powerful LLM perform such tasks.
 •	We test whether such models can be integrated in a domain-specific ontology-enhanced TODS, by extracting and using test phrases specific to its training.
 
-More detailes are available in the provided PDF file.
+More detailes are available in the provided PDF file, as a workshop paper for KG4SDSE, at CAISE 2024 conference.
 Each conversation can be read using each specific link from the folders. 
 
